@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#root {
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+div {
+
+    padding: 20px;
+    width: calc(80% / 3);
+    border: 2px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div p {
+    margin: 20px 0;
+}
+
+div img {
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
