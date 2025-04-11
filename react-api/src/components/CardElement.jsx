@@ -1,17 +1,20 @@
 export default function Card(props) {
-    const actress = props.actress
+    // aumento leggibilità
+    const act = props.act
 
     return (
         <>
+            {/* div container generale */}
             <div className='container'>
-                {actress.map((actres) => (
-                    <div key={actres.id}>
-                        <h3>{actres.name}</h3>
-                        <p>data di nascita:{actres.birth_year}</p>
-                        <p>nazionalità: {actres.nationality}</p>
-                        <p>biografia: {actres.biography}</p>
-                        <p>awards: {actres.awards}</p>
-                        <img src={actres.image} alt={actres.name} />
+                {/* funzione per generare tutte le card dall'array passato come props */}
+                {act.map((att, index) => (
+                    <div key={index}>
+                        <h3>{att.name}</h3>
+                        <p>data di nascita:{att.birth_year}</p>
+                        <p>nazionalità: {att.nationality}</p>
+                        <p>biografia: {att.biography}</p>
+                        <p>awards: {att.awards}</p>
+                        <img src={att.image} alt={att.name} />
                     </div>
                 ))}
             </div>
