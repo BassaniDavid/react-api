@@ -12,11 +12,27 @@ function App() {
       .then((res) => setDataActress(res.data))
   }
 
+  const [DataActors, setDataActors] = useState([])
+  function fetchActors() {
+    //https://jsonplaceholder.typicode.com/posts
+    axios.get("https://www.freetestapi.com/api/v1/actors")
+      .then((res) => setDataActors(res.data))
+  }
+
   useEffect(fetchActress, [])
+  useEffect(fetchActors, [])
 
 
   return (
-    <Card actress={DataActress} />
+    <>
+      <h2>attrici</h2>
+      <Card actress={DataActress} />
+
+      <h2>attori</h2>
+      <Card actress={DataActors} />
+
+    </>
+
   )
 }
 

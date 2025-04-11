@@ -7,6 +7,9 @@
 
 #root {
     border: none;
+}
+
+div.container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +17,13 @@
     gap: 50px;
 }
 
-div {
+h2 {
+    text-align: center;
+    margin: 40px;
+    font-size: 2.3em;
+}
+
+div.container div {
 
     padding: 20px;
     width: calc(80% / 3);
