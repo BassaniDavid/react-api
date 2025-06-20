@@ -1,3 +1,4 @@
+# Cast fetching
 ## Esercizio
 
 creiare una piccola app che ci mostri un elenco di attori o attrici.  
@@ -9,11 +10,11 @@ Lista di Attori:  https://freetestapi.com/api/v1/actors
 
 ---
 
-MILESTONE 1  
+### MILESTONE 1  
 Al caricamento dell'applicazione, recuperare la lista degli attori (o attrici) dalle API e stamparli in console.  
 
 ---
-MILESTONE 2  
+### MILESTONE 2  
 Preparare una card per ciascun attore/attrice, mostrandone le seguenti informazioni:
 - nome
 - anno nascita
@@ -23,19 +24,19 @@ Preparare una card per ciascun attore/attrice, mostrandone le seguenti informazi
 - riconoscimenti
 - immagine    
 --- 
-MILESTONE 3  
+### MILESTONE 3  
 Mostrare in pagina una card per ciascun attore.  
 
 ---
-*BONUS 1 :  
+#### BONUS 1 :  
 
 Stampare sia una lista delle attrici che degli attori, separatamente.  
 
-*BONUS 2 :  
+#### BONUS 2 :  
 
 Stampare un’unica lista che contiene attori e attrici insieme!  
 
-*BONUS 3* :  
+#### BONUS 3 :  
 
 Inserire un filtro di ricerca che permetta di cercare gli attori o le attrici per nome.   
 
